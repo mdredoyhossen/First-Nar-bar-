@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+.navbar {
+    overflow: auto;
+    margin: 5px;
+    background-color: rgb(75, 219, 154);
+    border-radius: 10px;
+
+}
+
+.navbar li {
+
+    list-style: none;
+    float: left;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(59, 66, 68);
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 25px;
+}
+
+.logo {
+    margin-top: 5px;
+    color: rgb(75, 219, 154);
+    text-align: center;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+}
+
+.search {
+    float: right;
+    position: relative;
+    top: 15px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: rgb(57, 213, 219);
+    border-bottom: 3px solid rgb(255, 234, 0);
+    border-radius: 3px;
+    position: relative;
+
+}
+
+.search:hover {
+    color: red;
+
+}
+h1{
+    font-size: 40px;
+}
